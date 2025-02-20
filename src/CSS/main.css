@@ -58,3 +58,9 @@
     border-radius: 16px;
     gap: 36px;
 }
+
+.projects_image{
+    border-radius: 16px;
+    width: 400px;
+    height: 300px;
+}
