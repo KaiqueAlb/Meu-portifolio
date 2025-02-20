@@ -1,0 +1,61 @@
+header{
+    padding: 24px 48px;
+    background-color: #001A6E;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+#nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-list{
+    display: flex;
+    gap: 64px;
+    list-style: none;
+}
+
+#nav-btn{
+    display: flex;
+    padding: 9px;
+    gap: 16px;
+    align-items: center;
+}
+
+.nav_link{
+    text-decoration: none;
+    color: white;
+}
+
+
+.nav_link#home-link{
+    font-family: "Krona One", serif;
+}
+
+.nav_btn_cv{
+    background-color: #C3A041;
+    border-radius: 16px;
+    text-decoration: none;
+    color: black;
+    padding: 12px;   
+}
+
+.nav_btn_lan{
+    background-color: #C3A041;
+    border-radius: 16px;
+    padding: 9px;
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+
+.nav_btn_lan_img{
+    width: 24px;
+
+}
